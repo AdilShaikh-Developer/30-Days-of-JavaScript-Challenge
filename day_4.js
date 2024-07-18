@@ -2,20 +2,20 @@
 
 // Activity 1: For Loop
 // Task 1: Write a program to print numbers from 1 to 10 using a for loop.
-console.log("Task 1");
+console.log("Task 1: ");
 for (let index = 1; index <= 10; index++) {
   console.log(index);
 }
 
 // Task 2: Write a program to print the multiplication table of 5 using a for loop.
-console.log("Task 2");
+console.log("Task 2: ");
 for (let index = 1; index <= 12; index++) {
   console.log(`5 x ${index} = ${5 * index}`);
 }
 
 // Activity 2: White Loop
 // Task 3: Write a program to calculate the sum of numbers from 1 to 10 using a while loop.
-console.log("Task 3");
+console.log("Task 3: ");
 {
   let i = 1;
   let number = 0;
@@ -26,7 +26,7 @@ console.log("Task 3");
 }
 
 // Task 4: Write a program to print numbers from 10 to 1 using a while loop.
-console.log("Task 4");
+console.log("Task 4: ");
 {
   let index = 10;
   while (index >= 1) {
@@ -37,7 +37,7 @@ console.log("Task 4");
 
 // Activity 3: Do...While Loop
 // Task 5: Write a program to print numbers from 1 to 5 using a do...while loop.
-console.log("Task 5");
+console.log("Task 5: ");
 {
   let index = 1;
   do {
@@ -47,7 +47,7 @@ console.log("Task 5");
 }
 
 // Task 6: Write a program to calculate the factorial of a number using a do...while loop.
-console.log("Task 6");
+console.log("Task 6: ");
 {
   let number = 5;
   let factorial = 1;
@@ -67,7 +67,7 @@ console.log("Task 6");
 //     * * * *
 //     * * * * *
 // ]
-console.log("Task 7");
+console.log("Task 7: ");
 {
   for (let index = 1; index <= 5; index++) {
     let row = "";
@@ -80,14 +80,14 @@ console.log("Task 7");
 
 // Activity 5: Loop Control Statements
 // Task 8: Write a program to print numbers from 1 to 10, but skip the number 5 using the continue statement.
-console.log("Task 8");
+console.log("Task 8: ");
 for (let index = 1; index <= 10; index++) {
   if (index === 5) continue;
   console.log(index);
 }
 
 // Task 9: Write a program to print numbers from 1 to 10, but stop the loop when the number is 7 using the break statement.
-console.log("Task 9");
+console.log("Task 9: ");
 for (let index = 1; index <= 10; index++) {
   if (index === 7) break;
   console.log(index);
@@ -95,7 +95,7 @@ for (let index = 1; index <= 10; index++) {
 
 // Feature Request:
 // 1. Number Printing Script: Write a script that prints numbers from 1 to 10 using a for loop and a while loop.
-console.log("Feature Request 1");
+console.log("Feature Request 1: ");
 {
   for (let index = 1; index <= 10; index++) {
     console.log(index);
@@ -108,13 +108,13 @@ console.log("Feature Request 1");
 }
 
 // 2. Multiplication Table Script: Create a script that prints the multiplication table of 5 using a for loop.
-console.log("Feature Request 2");
+console.log("Feature Request 2: ");
 for (let index = 1; index <= 12; index++) {
   console.log(5 * index);
 }
 
 // 3. Pattern Printing Script: Write a script that prints a pattern of stars using nested loops.
-console.log("Feature Request 3");
+console.log("Feature Request 3: ");
 {
   let index = 1;
   while (index <= 5) {
@@ -130,7 +130,7 @@ console.log("Feature Request 3");
 }
 
 // 4. Sum Calculation Script: Write a script that calculates the sum of numbers from 1 to 10 using a while loop.
-console.log("Feature Request 4");
+console.log("Feature Request 4: ");
 {
   let sum = 0;
   let index = 1;
@@ -142,7 +142,7 @@ console.log("Feature Request 4");
 }
 
 // 5. Factorial Calculation Script: Create a script that calculates the factorial of a number using a do...while loop.
-console.log("Feature Request 5");
+console.log("Feature Request 5: ");
 {
   let factorial = 1;
   let index = 1;
